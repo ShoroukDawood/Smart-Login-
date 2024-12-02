@@ -1,0 +1,53 @@
+body{
+    height: 100vh;
+    background: #24353f;
+    font-family: "Titillium Web", sans-serif;
+      font-weight: 600;
+  font-style: normal;
+}
+.boxshadow {
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+h1.smart-title{
+    color: #17a2b8;
+    font-size: 40px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    color: white !important;
+    margin: 9px;
+    font-size: 1rem !important;
+    background-color: transparent;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+}
+input::placeholder {
+    color: white !important;
+    font-size: 1rem !important;
+  
+}
+button {
+    color: #17a2b8;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid #17a2b8;
+    width: 100%;
+    padding: 9px;
+    margin: 20px 10px;
+    border-radius: 0.25rem;
+        font-size: 1.2rem;
+
+}
+a {
+    text-decoration: none;
+}
+p.account a {
+    color: white;
+    font-weight: 400;
+}
+p.account {
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+}

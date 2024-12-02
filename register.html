@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link href="./css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+
+   <section class="registeration-form">
+    <div class="container">
+      <div class="row justify-content-center align-items-center pt-5">
+        <div class="col-md-9  boxshadow  p-5">
+          <h1 class="smart-title text-center text-capitalize">Smart Registration System</h1>
+          <form>
+          <input id="signinRegUsername" type="text" name="UserName" placeholder="Enter your UserName" required>
+          <input id="signinRegEmail" type="email" name="email" placeholder="Enter your email" required> 
+          <input id="signinRegPass" type="password" name="password" placeholder="Enter your password" required>
+          <button id="submitReg" type="submit">Register Now!</button>
+          </form>
+          <div id="errorMessages" style="color: red;"></div>
+
+        </div>
+      </div>
+    </div>
+   </section>
+
+  <script src="./js/register.js"></script>
+
+  <script src="./js/bootstrap.bundle.min.js.map"></script>
+</body>
+</html>
